@@ -32,7 +32,7 @@ if [[ $hash != "" && $hash != *" "* && ! -d ".git" ]]; then
     sed -i $p install.sh
 fi
 git submodule sync
-git submodule update --remote --init --recursive
+git submodule update --init --recursive
 ${1:-python3} -m pip uninstall -y mtj-softtuner
 ${1:-python3} -m pip install .
 apt install aria2 2> /dev/null || true  # For faster model downloads in Colab
