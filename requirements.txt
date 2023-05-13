@@ -2,16 +2,16 @@ torch >= 1.9, <= 2.0.1
 numpy
 tqdm
 requests
-optax == 0.1.5
-dm-haiku == 0.0.9
-chex == 0.1.7
-jax == 0.4.10
-jaxlib == 0.4.10
-transformers
+optax >= 0.1.0, <= 0.1.5
+dm-haiku == 0.0.5
+chex >= 0.0.7, < 0.1.7
+jax >= 0.2.12, <= 0.4.10
+jaxlib >= 0.1.68, <= 0.4.10
+transformers==4.25.1
 huggingface_hub==0.12.1
 progressbar2
 mesh_transformer @ git+https://github.com/sukhysall/mesh-transformer-jax#egg=mesh_transformer
 ftfy
 termcolor
 flask-socketio
-tensorflow==2.12.0
+tensorflow==2.11.0
