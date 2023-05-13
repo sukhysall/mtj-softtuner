@@ -10,7 +10,7 @@ jaxlib == 0.4.10
 transformers==4.25.1
 huggingface_hub==0.12.1
 progressbar2
-mesh_transformer @ git+https://github.com/VE-FORBRYDERNE/mesh-transformer-jax#egg=mesh_transformer
+mesh_transformer @ git+https://github.com/sukhysall/mesh-transformer-jax#egg=mesh_transformer
 ftfy
 termcolor
 flask-socketio
