@@ -14,4 +14,4 @@ mesh_transformer @ git+https://github.com/sukhysall/mesh-transformer-jax#egg=mes
 ftfy
 termcolor
 flask-socketio
-tensorflow==2.11.0
+tensorflow==2.12.0
